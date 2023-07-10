@@ -99,7 +99,6 @@ a:hover {
 nav {
   font-family: var(--mono);
   font-size: 80%;
-  padding: 1rem;
 }
 nav [class*="fa-"] {
   font-size: 150%;
@@ -214,7 +213,9 @@ footer {
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 2rem auto;
+    font-size: 100%;
+    
   }
   nav li:first-child {
     flex-basis: auto;
