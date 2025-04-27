@@ -46,12 +46,18 @@
       </ul>
     </nav>
     <section id="intro">
-      <p class="name">Hi, my name is<span> Vivek Pankaj.</span></p>
-      <h2>I am an Analyst II - Data Science.</h2>
-      <p>
-        I graduated with a B.Tech in Computer Science and Engineering from
-        <a href="https://nitc.ac.in">National Institute of Technology, Calicut</a> in May 2024.
-      </p>
+      <div class="intro-content">
+        <p class="name">Hi, my name is<span class="animated-text"> Vivek Pankaj.</span></p>
+        <h2 class="fade-in">I am an <span class="highlight">Analyst II - Data Science.</span></h2>
+        <p class="slide-in">
+          I graduated with a B.Tech in Computer Science and Engineering from
+          <a href="https://nitc.ac.in">National Institute of Technology, Calicut</a> in May 2024.
+        </p>
+        <div class="intro-buttons">
+          <a href="#projects" class="button">View Projects</a>
+          <a href="#contact" class="button button-outline">Contact Me</a>
+        </div>
+      </div>
     </section>
     <div class="gradient"></div>
     
@@ -199,30 +205,153 @@
     <div class="skills-div">
       <section id="skills">
         <h2>Technologies & Skills</h2>
-        <article>
-          <div class="skills-text">
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fa-solid fa-code icon" aria-hidden="true"></i>
             <h3>Languages</h3>
-            <p class="blackbox">
-              Python (Proficient), C/C++, Javascript, Java (Coursework), Elixir, SQL
-            </p>
-            
-            <h3>Technologies</h3>
-            <p class="blackbox">
-              Git, Linux, Vim, VSCode, Machine Learning, CNNs
-            </p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percent">Proficient</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">C/C++</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 75%;"></div>
+                </div>
+                <span class="skill-percent">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 70%;"></div>
+                </div>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Java</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 60%;"></div>
+                </div>
+                <span class="skill-percent">Coursework</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Elixir</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 65%;"></div>
+                </div>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">SQL</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 80%;"></div>
+                </div>
+                <span class="skill-percent">Advanced</span>
+              </div>
+            </div>
           </div>
-        </article>
+          
+          <div class="skill-card">
+            <i class="fa-solid fa-laptop-code icon" aria-hidden="true"></i>
+            <h3>Technologies</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Git</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+                <span class="skill-percent">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Linux</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 80%;"></div>
+                </div>
+                <span class="skill-percent">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Vim/VSCode</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 75%;"></div>
+                </div>
+                <span class="skill-percent">Proficient</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <i class="fa-solid fa-brain icon" aria-hidden="true"></i>
+            <h3>Data Science</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Machine Learning</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+                <span class="skill-percent">Advanced</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">CNNs</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 75%;"></div>
+                </div>
+                <span class="skill-percent">Proficient</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Data Analysis</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-percent">Expert</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">NLP</span>
+                <div class="skill-level">
+                  <div class="skill-progress" style="width: 70%;"></div>
+                </div>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
     
     <div class="gradient"></div>
     <div class="contact-div">
       <section id="contact">
-      <h3>Contact me</h3>
-      <p>Feel free to contact me through email, phone, or LinkedIn</p>
-      <p><a href="mailto:vivekpankaj3.14@gmail.com" class="button">Email me</a></p>
-      <p>Phone: +91 9778755457</p>
-    </section>
+        <h2>Get In Touch</h2>
+        <p class="contact-intro">Feel free to reach out for collaborations, opportunities, or just to say hello!</p>
+        
+        <div class="contact-container">
+          <div class="contact-card">
+            <i class="fa-regular fa-envelope icon" aria-hidden="true"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:vivekpankaj3.14@gmail.com">vivekpankaj3.14@gmail.com</a></p>
+          </div>
+          
+          <div class="contact-card">
+            <i class="fa-solid fa-phone icon" aria-hidden="true"></i>
+            <h3>Phone</h3>
+            <p>+91 9778755457</p>
+          </div>
+          
+          <div class="contact-card">
+            <i class="fa-brands fa-linkedin icon" aria-hidden="true"></i>
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/vivek-pankaj/" target="_blank">Connect with me</a></p>
+          </div>
+        </div>
+        
+        <div class="contact-buttons">
+          <a href="mailto:vivekpankaj3.14@gmail.com" class="button">Send Email</a>
+          <a href="https://www.linkedin.com/in/vivek-pankaj/" target="_blank" class="button button-outline">LinkedIn Profile</a>
+        </div>
+      </section>
     </div>
     <div class="gradient"></div>
     <footer id="footer">
@@ -243,6 +372,10 @@
       </ul>
       <p>&copy; 2024 Vivek Pankaj. All rights reserved.</p>
     </footer>
+    
+    <a href="#intro" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </a>
     <script src="script.js"></script>
   </body>
 </html>
