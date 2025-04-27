@@ -101,6 +101,10 @@ a:hover {
   background-color: rgba(13, 49, 75, 0.7);
 }
 
+.skills-div .info-card {
+  background-color: rgba(75, 13, 73, 0.7);
+}
+
 /* Card styling for education, experience, and activities */
 .info-card {
   border-radius: 10px;
@@ -137,9 +141,7 @@ a:hover {
   }
 }
 
-.skills-div {
-  background-color: var(--plum);
-}
+/* Skills section is now part of info-container */
 #contact {
   padding: 4rem;
   padding-left: 4rem;
@@ -237,17 +239,17 @@ footer {
 }
 /* projects */
 
-#projects, #skills {
+#projects {
   padding: 4rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#education, #experience, #activities {
+#education, #experience, #activities, #skills {
   padding: 1rem;
   margin: 0;
 }
-#projects h2, #skills h2 {
+#projects h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
